@@ -1,0 +1,230 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .magicpattern {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%222000%22 height=%221400%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3C%2Fmask%3E%3Cpath fill=%22%23121212%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cg style=%22transform-origin:center center%22 stroke=%22%23272727%22 stroke-width=%222.6%22 mask=%22url(%23b)%22%3E%3Cpath fill=%22%2327272737%22 d=%22M0 0h71.429v71.429H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 0h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727e2%22 d=%22M500 0h71.429v71.429H500z%22%2F%3E%3Cpath fill=%22%232727276e%22 d=%22M642.857 0h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727e0%22 d=%22M714.286 0h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1000 0h71.429v71.429H1000zM1071.429 0h71.429v71.429h-71.429zM1428.571 0H1500v71.429h-71.429zM1785.714 0h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727f9%22 d=%22M1928.571 0H2000v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272742%22 d=%22M214.286 71.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M428.571 71.429H500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272798%22 d=%22M642.857 71.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M857.143 71.429h71.429v71.429h-71.429zM1285.714 71.429h71.429v71.429h-71.429zM1357.143 71.429h71.429v71.429h-71.429zM1642.857 71.429h71.429v71.429h-71.429zM142.857 142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727278a%22 d=%22M285.714 142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M357.143 142.857h71.429v71.429h-71.429zM785.714 142.857h71.429v71.429h-71.429zM928.571 142.857H1000v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727c2%22 d=%22M1071.429 142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727276e%22 d=%22M1428.571 142.857H1500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1642.857 142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727ac%22 d=%22M1857.143 142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727d1%22 d=%22M214.286 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M357.143 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M428.571 214.286H500v71.429h-71.429zM500 214.286h71.429v71.429H500zM642.857 214.286h71.429v71.429h-71.429zM714.286 214.286h71.429v71.429h-71.429zM1071.429 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1142.857 214.286h71.429v71.429h-71.429zM1357.143 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1428.571 214.286H1500v71.429h-71.429zM1571.429 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727278b%22 d=%22M1642.857 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727f9%22 d=%22M1714.286 214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1928.571 214.286H2000v71.429h-71.429zM0 285.714h71.429v71.429H0z%22%2F%3E%3Cpath fill=%22%2327272712%22 d=%22M285.714 285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727ad%22 d=%22M357.143 285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727e5%22 d=%22M714.286 285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M928.571 285.714H1000v71.429h-71.429zM1142.857 285.714h71.429v71.429h-71.429zM1285.714 285.714h71.429v71.429h-71.429zM1714.286 285.714h71.429v71.429h-71.429zM0 357.143h71.429v71.429H0zM71.429 357.143h71.429v71.429H71.429zM214.286 357.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 357.143h71.429v71.429h-71.429zM642.857 357.143h71.429v71.429h-71.429zM714.286 357.143h71.429v71.429h-71.429zM928.571 357.143H1000v71.429h-71.429zM1214.286 357.143h71.429v71.429h-71.429zM1428.571 357.143H1500v71.429h-71.429zM1785.714 357.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272748%22 d=%22M142.857 428.571h71.429V500h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M214.286 428.571h71.429V500h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 428.571h71.429V500h-71.429zM428.571 428.571H500V500h-71.429zM500 428.571h71.429V500H500zM571.429 428.571h71.429V500h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M642.857 428.571h71.429V500h-71.429zM1214.286 428.571h71.429V500h-71.429z%22%2F%3E%3Cpath fill=%22%23272727b2%22 d=%22M1428.571 428.571H1500V500h-71.429z%22%2F%3E%3Cpath fill=%22%2327272700%22 d=%22M1642.857 428.571h71.429V500h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1928.571 428.571H2000V500h-71.429zM142.857 500h71.429v71.429h-71.429zM500 500h71.429v71.429H500zM857.143 500h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727da%22 d=%22M1428.571 500H1500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727a6%22 d=%22M1642.857 500h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272797%22 d=%22M1857.143 500h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727275d%22 d=%22M0 571.429h71.429v71.429H0z%22%2F%3E%3Cpath fill=%22%2327272736%22 d=%22M71.429 571.429h71.429v71.429H71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M214.286 571.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 571.429h71.429v71.429h-71.429zM428.571 571.429H500v71.429h-71.429zM500 571.429h71.429v71.429H500z%22%2F%3E%3Cpath fill=%22%23272727a2%22 d=%22M857.143 571.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1071.429 571.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1142.857 571.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272727%22 d=%22M1285.714 571.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1357.143 571.429h71.429v71.429h-71.429zM1714.286 571.429h71.429v71.429h-71.429zM0 642.857h71.429v71.429H0z%22%2F%3E%3Cpath fill=%22%23272727f0%22 d=%22M71.429 642.857h71.429v71.429H71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 642.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M357.143 642.857h71.429v71.429h-71.429zM500 642.857h71.429v71.429H500z%22%2F%3E%3Cpath fill=%22%2327272778%22 d=%22M642.857 642.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727d7%22 d=%22M714.286 642.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272781%22 d=%22M785.714 642.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1142.857 642.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727f7%22 d=%22M1285.714 642.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1357.143 642.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1428.571 642.857H1500v71.429h-71.429zM1714.286 642.857h71.429v71.429h-71.429zM142.857 714.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272784%22 d=%22M214.286 714.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M357.143 714.286h71.429v71.429h-71.429zM785.714 714.286h71.429v71.429h-71.429zM928.571 714.286H1000v71.429h-71.429zM1357.143 714.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727ab%22 d=%22M1500 714.286h71.429v71.429H1500z%22%2F%3E%3Cpath fill=%22%23272727e5%22 d=%22M1642.857 714.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727f5%22 d=%22M1714.286 714.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M142.857 785.714h71.429v71.429h-71.429zM714.286 785.714h71.429v71.429h-71.429zM928.571 785.714H1000v71.429h-71.429zM1071.429 785.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1142.857 785.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272777%22 d=%22M1285.714 785.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1428.571 785.714H1500v71.429h-71.429zM1571.429 785.714h71.429v71.429h-71.429zM1857.143 785.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1928.571 785.714H2000v71.429h-71.429zM214.286 857.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 857.143h71.429v71.429h-71.429zM428.571 857.143H500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272701%22 d=%22M785.714 857.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1000 857.143h71.429v71.429H1000zM1214.286 857.143h71.429v71.429h-71.429zM1357.143 857.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727272f%22 d=%22M1642.857 857.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272709%22 d=%22M1785.714 857.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272769%22 d=%22M1857.143 857.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1928.571 857.143H2000v71.429h-71.429zM0 928.571h71.429V1000H0zM142.857 928.571h71.429V1000h-71.429zM214.286 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 928.571h71.429V1000h-71.429zM428.571 928.571H500V1000h-71.429z%22%2F%3E%3Cpath fill=%22%2327272710%22 d=%22M571.429 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M642.857 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22%2327272752%22 d=%22M857.143 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1000 928.571h71.429V1000H1000zM1071.429 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22%232727278d%22 d=%22M1142.857 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22%2327272744%22 d=%22M1285.714 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1571.429 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22%23272727af%22 d=%22M1642.857 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1714.286 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22%232727273b%22 d=%22M1857.143 928.571h71.429V1000h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1928.571 928.571H2000V1000h-71.429zM214.286 1000h71.429v71.429h-71.429zM500 1000h71.429v71.429H500z%22%2F%3E%3Cpath fill=%22%23272727f6%22 d=%22M1000 1000h71.429v71.429H1000z%22%2F%3E%3Cpath fill=%22%2327272778%22 d=%22M1142.857 1000h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727aa%22 d=%22M1285.714 1000h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727a0%22 d=%22M1714.286 1000h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1928.571 1000H2000v71.429h-71.429zM0 1071.429h71.429v71.429H0zM71.429 1071.429h71.429v71.429H71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M142.857 1071.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272765%22 d=%22M214.286 1071.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727a7%22 d=%22M357.143 1071.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727f0%22 d=%22M428.571 1071.429H500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727be%22 d=%22M571.429 1071.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M714.286 1071.429h71.429v71.429h-71.429zM1214.286 1071.429h71.429v71.429h-71.429zM1642.857 1071.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727279d%22 d=%22M1714.286 1071.429h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 1142.857h71.429v71.429h-71.429zM500 1142.857h71.429v71.429H500z%22%2F%3E%3Cpath fill=%22%2327272702%22 d=%22M642.857 1142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1071.429 1142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727d8%22 d=%22M1142.857 1142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1214.286 1142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1285.714 1142.857h71.429v71.429h-71.429zM1428.571 1142.857H1500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727c2%22 d=%22M1500 1142.857h71.429v71.429H1500z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1857.143 1142.857h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272768%22 d=%22M0 1214.286h71.429v71.429H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M142.857 1214.286h71.429v71.429h-71.429zM357.143 1214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272702%22 d=%22M428.571 1214.286H500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M571.429 1214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727275b%22 d=%22M642.857 1214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272715%22 d=%22M714.286 1214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M928.571 1214.286H1000v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%2327272741%22 d=%22M1357.143 1214.286h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1500 1214.286h71.429v71.429H1500zM1785.714 1214.286h71.429v71.429h-71.429zM0 1285.714h71.429v71.429H0zM71.429 1285.714h71.429v71.429H71.429zM285.714 1285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M357.143 1285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M428.571 1285.714H500v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727275e%22 d=%22M500 1285.714h71.429v71.429H500z%22%2F%3E%3Cpath fill=%22%2327272723%22 d=%22M571.429 1285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M714.286 1285.714h71.429v71.429h-71.429zM1000 1285.714h71.429v71.429H1000zM1071.429 1285.714h71.429v71.429h-71.429zM1285.714 1285.714h71.429v71.429h-71.429zM1500 1285.714h71.429v71.429H1500z%22%2F%3E%3Cpath fill=%22%23272727ef%22 d=%22M1642.857 1285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1714.286 1285.714h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727c8%22 d=%22M1928.571 1285.714H2000v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727b3%22 d=%22M142.857 1357.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M285.714 1357.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%23272727ea%22 d=%22M571.429 1357.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1000 1357.143h71.429v71.429H1000zM1285.714 1357.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22%232727271a%22 d=%22M1500 1357.143h71.429v71.429H1500z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1571.429 1357.143h71.429v71.429h-71.429z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1642.857 1357.143h71.429v71.429h-71.429z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%220%22 stop-color=%22%23fff%22 stop-opacity=%22.748%22%2F%3E%3Cstop offset=%2279%25%22 stop-color=%22%23fff%22 stop-opacity=%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
+  }
+
+
+  .hero-content {
+    max-width: 800px;
+    padding: 0 1rem;
+    color: white;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 650px;
+    margin: 0 auto 0rem;
+    text-align: center;
+    opacity: 0.77;
+    animation: fadeInUp 0.4s ease-out;
+  }
+
+  .title {
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 1.06;
+    max-width: 650px;
+    margin: 0 auto 0.8rem;
+    text-align: center;
+    font-family: TitleHero !important;
+    color: #e3f31c;
+    //transform: scaleY(1.1);
+    /* >1 estira hacia arriba, <1 aplasta */
+    animation: fadeInUp 0.5s ease-out;
+
+    @media (max-width: 991.98px) {
+      // tablet
+      font-size: 8rem;
+    }
+
+    @media (max-width: 767.98px) {
+      // móvil
+      font-size: 5rem;
+    }
+
+  }
+
+  .description {
+    font-size: 1.1rem;
+    margin: 0 auto 1.2rem;
+    max-width: 650px;
+    text-align: center;
+    animation: fadeInUp 0.6s ease-out;
+
+    @media (max-width: 767.98px) {
+      // móvil
+      font-size: 0.8rem;
+    }
+  }
+
+  .contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    @media (max-width: 767.98px) {
+      // móvil
+      gap: 0.7rem;
+    }
+  }
+
+  .btn-own {
+    background-color: #e5f31c49;
+    color: #e3f31c;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    animation: fadeInUp 0.8s ease-out;
+
+    @media (max-width: 767.98px) {
+      // móvil
+      font-size: 0.8rem;
+    }
+
+    /* Aplica la animación al cargar */
+  }
+
+  .btn-own:hover {
+    background-color: #e5f31c60;
+  }
+
+  .btn-own:active {
+    transform: scale(0.95);
+    transition: ease-in-out 0.06 s;
+    background-color: #e5f31c31;
+  }
+
+
+  /* Alert Disponibilidad */
+  .disponibilidad {
+    background-color: rgba(255, 255, 255, 0.034);
+    color: rgba(255, 255, 255, 0.87);
+    border: rgba(255, 255, 255, 0.062) 1px solid;
+    backdrop-filter: blur(2px);
+    padding: 12px;
+    width: fit-content;
+    text-decoration: none;
+    padding-inline: 15px;
+    border-radius: 3px;
+    transition: transform 0.2s ease-in-out;
+    animation: fadeInUp 1s ease-out;
+    margin-top: 2.5rem;
+
+    @media (max-width: 767.98px) {
+      // móvil
+      font-size: 0.8rem;
+      margin-top: 1rem  !important;
+
+    }
+
+    /* Aplica la animación al cargar */
+  }
+
+  .disponibilidad:hover {
+    transform: scale(1.05);
+  }
+
+  .disponibilidad .dot2 {
+    background-color: rgb(56, 228, 3);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    animation: pulse 2s infinite;
+  }
+
+
+
+  /* Animación para incentivar el Scroll */
+  .scrollIncent {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    color: var(--text1);
+    z-index: 10;
+  }
+
+  .scrollIncent span {
+    display: block;
+    animation: bounce 2s infinite;
+
+    @media (max-width: 767.98px) {
+      // móvil
+      font-size: 12px;
+    }
+  }
+
+}
+
+
+@keyframes pulse {
+
+  //Animación para el circulo pulsaciones disponibilidad
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0, 252, 0, 0.6);
+  }
+
+  5% {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 252, 0, 0.8);
+  }
+
+  10% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0, 252, 0, 0.6);
+  }
+
+  15% {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 252, 0, 0.8);
+  }
+
+  20% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0, 252, 0, 0.6);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0, 252, 0, 0.6);
+  }
+}
+
+@keyframes bounce {
+  //Animación Bounce incentivar Scroll
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}

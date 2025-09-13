@@ -1,0 +1,76 @@
+.title {
+  color: #e3f31c;
+  font-family: TitleSection !important;
+  letter-spacing: 2px;
+}
+
+.description {
+  color: white;
+}
+
+.hl {
+  color: #e3f31c;
+
+}
+
+
+.skills-content {
+  display: flex;
+  position: relative;
+  gap: 20px;
+
+  @media (max-width: 767.98px) {
+    // móvil
+    flex-direction: column; // apila texto arriba y muro debajo
+    align-items: center; // centra horizontalmente el muro
+    text-align: center; // centra también el texto
+  }
+
+}
+
+.skill-wall {
+  min-width: 392px;
+
+  @media (max-width: 467.98px) {
+    scale: 0.8;
+  }
+  
+}
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 380px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+
+}
+
+.skill {
+  flex: 0 0 auto;
+  padding-inline: 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.gris {
+  background: #aeb9151c;
+}
+
+.amarillo {
+  background-color: #E5F31C1C;
+}
+
+
+.skill:hover {
+  background-color: #ffffff13;
+}

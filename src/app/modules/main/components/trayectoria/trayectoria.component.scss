@@ -1,0 +1,260 @@
+.title {
+    color: #e3f31c;
+    font-family: TitleSection !important;
+    letter-spacing: 2px;
+}
+
+.description {
+    color: white;
+}
+
+.hl {
+    color: #e3f31c;
+}
+
+/* Badge que indica que tipo de trayectoria es arriba a la izq de cada bloque */
+.badge {
+    background-color: rgba(255, 255, 255, 0.034);
+    color: rgba(255, 255, 255, 0.87);
+    border: rgba(255, 255, 255, 0.062) 1px solid;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    border-radius: 50px;
+    padding: 6px;
+    padding-inline: 12px;
+
+    @media (max-width: 767.98px) {
+        // móvil
+        font-size: 0.8rem;
+    }
+
+}
+
+/*
+  SCSS de: Componente Exp-Progress
+  @Autor: Pablo López Luján
+          github.com/pablolop12
+  */
+
+/* Contenedor base del componente */
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+
+
+.timeline-item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Asegura que las bolas estén alineadas con el contenido */
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.timeline-marker {
+    position: absolute;
+    display: flex;
+    top: -6px;
+    left: -50px;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    color: #121212;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 5px;
+    z-index: 2;
+    outline: 3px solid #121212;
+
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    /* Ajusta la posición de la línea central */
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, white 4%, rgba(255, 255, 255, 0.3) 96%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+.timeline-details {
+    position: relative;
+    flex: 1;
+    color: rgba(255, 255, 255, 0.685);
+    background: #E5F31C1C;
+    background: linear-gradient(90deg, rgba(255, 251, 0, 0.336) 0%, rgba(255, 251, 0, 0.336) 60%, rgba(237, 221, 83, 0) 100%);
+    padding: 16px;
+    border-radius: 3px;
+
+    @media (max-width: 767.98px) {
+        // móvil
+        font-size: 0.8rem;
+    }
+}
+
+.timeline-description {
+    flex: 2;
+}
+
+.company {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.role {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 15px;
+    color: #ffffffaf;
+
+
+}
+
+
+.highlight {
+    color: #ffffffaf;
+    font-weight: 600;
+}
+
+.external {
+    font-size: 16px;
+    margin-left: 4px;
+    color: white;
+}
+
+
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.graph-container {
+    margin-top: 17px;
+}
+
+.education-container {
+    margin-top: 17px;
+    position: relative;
+    gap: 6px;
+    display: flex;
+    justify-content: center;
+     @media (max-width: 767.98px) {
+        // móvil
+        flex-wrap: wrap;
+    }
+
+
+
+    .education {
+        background-color: rgba(255, 255, 255, 0.034);
+        padding: 10px;
+        border-radius: 4px;
+        width: 100%;
+        display: flex;
+        min-width: 330px;
+
+
+
+        .education-img {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #ffffffaf;
+
+            @media (max-width: 767.98px) {
+                // móvil
+                font-size: 0.8rem;
+            }
+        }
+
+        h1 {
+            font-size: 19px;
+            color: white;
+
+            @media (max-width: 767.98px) {
+                // móvil
+                font-size: 1rem;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            color: #ffffffaf;
+
+            @media (max-width: 767.98px) {
+                // móvil
+                font-size: 0.8rem;
+            }
+        }
+
+
+    }
+}
+
+
+
+.svgV {
+    width: 80px;
+    height: 80px;
+    background-color: white; // El color que quieres para el SVG
+    -webkit-mask-image: url("/assets/img/vedruna_logo.svg");
+    mask-image: url("/assets/img/vedruna_logo.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+
+    @media (max-width: 767.98px) {
+        // móvil
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.svgA {
+    width: 80px;
+    height: 80px;
+    background-color: white; // El color que quieres para el SVG
+    -webkit-mask-image: url("/assets/img/altair_logo.svg");
+    mask-image: url("/assets/img/altair_logo.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+     @media (max-width: 767.98px) {
+        // móvil
+        width: 60px;
+        height: 60px;
+    }
+}

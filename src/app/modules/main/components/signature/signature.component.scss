@@ -1,0 +1,52 @@
+.hero {
+    height: 500px;
+    display: flex;
+
+    .magicpattern {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-size: cover;
+        background-position: right 50% bottom 200%;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%222000%22 height=%221400%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3C%2Fmask%3E%3Cpath fill=%22%23121212%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cg style=%22transform-origin:center center%22 stroke=%22%23404040%22 stroke-width=%221.8%22 fill=%22none%22 mask=%22url(%23b)%22%3E%3Cpath d=%22M0 0h200v200H0zM200 0h200v200H200zM400 0h200v200H400zM600 0h200v200H600zM800 0h200v200H800zM1000 0h200v200h-200zM1200 0h200v200h-200zM1400 0h200v200h-200zM1600 0h200v200h-200zM1800 0h200v200h-200zM0 200h200v200H0zM200 200h200v200H200zM400 200h200v200H400zM600 200h200v200H600zM800 200h200v200H800zM1000 200h200v200h-200zM1200 200h200v200h-200zM1400 200h200v200h-200zM1600 200h200v200h-200zM1800 200h200v200h-200zM0 400h200v200H0zM200 400h200v200H200zM400 400h200v200H400zM600 400h200v200H600zM800 400h200v200H800zM1000 400h200v200h-200zM1200 400h200v200h-200zM1400 400h200v200h-200zM1600 400h200v200h-200zM1800 400h200v200h-200zM0 600h200v200H0zM200 600h200v200H200zM400 600h200v200H400zM600 600h200v200H600zM800 600h200v200H800zM1000 600h200v200h-200zM1200 600h200v200h-200zM1400 600h200v200h-200zM1600 600h200v200h-200zM1800 600h200v200h-200zM0 800h200v200H0zM200 800h200v200H200zM400 800h200v200H400zM600 800h200v200H600zM800 800h200v200H800zM1000 800h200v200h-200zM1200 800h200v200h-200zM1400 800h200v200h-200zM1600 800h200v200h-200zM1800 800h200v200h-200zM0 1000h200v200H0zM200 1000h200v200H200zM400 1000h200v200H400zM600 1000h200v200H600zM800 1000h200v200H800zM1000 1000h200v200h-200zM1200 1000h200v200h-200zM1400 1000h200v200h-200zM1600 1000h200v200h-200zM1800 1000h200v200h-200zM0 1200h200v200H0zM200 1200h200v200H200zM400 1200h200v200H400zM600 1200h200v200H600zM800 1200h200v200H800zM1000 1200h200v200h-200zM1200 1200h200v200h-200zM1400 1200h200v200h-200zM1600 1200h200v200h-200zM1800 1200h200v200h-200z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%220%22 stop-color=%22%23fff%22 stop-opacity=%22.748%22%2F%3E%3Cstop offset=%2279%25%22 stop-color=%22%23fff%22 stop-opacity=%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
+    }
+
+
+    .hero-content {
+        width: 800px;
+    }
+
+    .thanks {
+        font-size: 1.2rem;
+        color: rgb(207, 207, 207);
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .title {
+        overflow-wrap: hidden;
+        font-size: 7.4rem;
+        font-weight: 800;
+        line-height: 0.73;
+        text-align: center;
+        font-family: TitleHero !important;
+        color: #e3f31c;
+        transform: scaleY(1.1);
+
+        /* >1 estira hacia arriba, <1 aplasta
+        
+               -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px #e3f31c;*/
+
+        @media (max-width: 950.98px) {
+            line-height: 0.95;
+        }
+
+
+    }
+
+}

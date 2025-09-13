@@ -1,0 +1,17 @@
+.footer {
+    background: #121212;
+    background: linear-gradient(360deg, rgb(18, 18, 18) 12%, rgba(237, 221, 83, 0) 100%);
+    
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    padding: 1rem;
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.849);
+}

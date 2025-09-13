@@ -1,0 +1,35 @@
+.navbar-own{
+    background-color: #12121271;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    @media (max-width: 767.98px) { // móvil
+      display: none;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 1rem 0;
+
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: color 0.5 ease;
+        cursor: pointer;
+
+        &:hover{
+            color: #e3f31c;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.title {
+    color: #e3f31c;
+    font-family: TitleSection !important;
+    letter-spacing: 2px;
+}
+
+.description {
+    color: white;
+}
+
+.hl {
+    color: #e3f31c;
+
+}
+
+.pfp {
+    border-radius: 5px;
+    max-height: 300px;
+}
+
+.contact-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+ .btn-own {
+    background-color: #e5f31c49;
+    color: #e3f31c;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    /* Aplica la animación al cargar */
+  }
+
+  .btn-own:hover {
+    background-color: #e5f31c60;
+  }
+
+  .btn-own:active {
+    transform: scale(0.95);
+    transition: ease-in-out 0.06 s;
+    background-color: #e5f31c31;
+  }

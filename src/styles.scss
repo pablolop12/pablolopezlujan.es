@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+/* Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+/* Iconos */
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "devicon/devicon.min.css";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+  font-family: "TitleHero";
+  src: url("assets/fonts/Versus-BlackExtended.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TitleSection";
+  src: url("assets/fonts/AghartiFamilyTest-SemiWideSemiBold-BF66722ee1ba37e.otf") format("opentype");
+  font-display: swap;
+}
+
+/* Asignación de Montserrat a toda la página */
+* {
+   font-family: "Montserrat", sans-serif;
+}
+
+//Colores Selección cursor
+::selection {
+  color: rgb(255, 255, 255);
+
+  background: #e5f31c54;
+
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px); /* Aparece desde abajo */
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0); /* Finaliza en su posición original */
+  }
+}

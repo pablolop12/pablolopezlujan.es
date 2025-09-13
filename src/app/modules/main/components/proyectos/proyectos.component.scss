@@ -1,0 +1,146 @@
+.title {
+    color: #e3f31c;
+    font-family: TitleSection !important;
+    letter-spacing: 2px;
+}
+
+.description {
+    color: white;
+}
+
+.hl {
+    color: #e3f31c;
+
+    a {
+        text-decoration: none;
+        color: #e3f31c;
+    }
+
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    .project {
+        width: 31.8%;
+        min-width: 290px;
+        margin-bottom: 30px;
+
+        .project-image {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            margin-bottom: 4px;
+        }
+
+        .details {
+            background: #E5F31C1C;
+            background: linear-gradient(180deg, rgba(243, 229, 28, 0.336) 0%, rgba(239, 243, 28, 0.336) 60%, rgba(237, 221, 83, 0) 100%);
+            border-radius: 4px 4px 0 0;
+            padding: 6px;
+            padding-bottom: 60px;
+            position: relative;
+
+            .project-title {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 600;
+                color: white;
+                margin-bottom: 6px;
+            }
+
+            .project-description {
+                color: rgba(255, 255, 255, 0.685);
+            }
+
+            .tech-container {
+                margin-top: 8px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 6px;
+                margin-bottom: 2rem;
+                justify-content: center;
+
+                .tech {
+                    background-color: rgba(0, 0, 0, 0.178);
+                    color: rgba(255, 255, 255, 0.87);
+                    border: rgba(255, 255, 255, 0.062) 1px solid;
+                    padding: 2px 6px;
+                    border-radius: 4px;
+                    font-size: 13.5px;
+                    font-weight: 600;
+
+                    i {
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+
+        .git-link {
+            position: absolute;
+            bottom: 30px;
+            right: 3%;
+            background-color: rgba(0, 0, 0, 0.178);
+            color: rgba(255, 255, 255, 0.87);
+            border: rgba(255, 255, 255, 0.062) 1px solid;
+            text-align: center;
+            border-radius: 4px;
+            padding: 7px;
+            width: 94%;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-top: 10px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #e3f31c;
+            }
+
+            i{
+                font-size: 19px;
+            }
+        }
+    }
+}
+
+
+/* Texto mostrar más */
+.textToggle {
+    text-decoration: underline;
+    color: white;
+    animation: transform 0.5s ease;
+    cursor: pointer;
+    transition: 0.2s color;
+}
+
+.textToggle:hover {
+    color: rgba(255, 255, 255, 0.616);
+}
+
+/* Div que holdea los projectos ocultos */
+.extra-projects {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.extra-projects.expanded {
+    max-height: 1000px;
+    /* Altura máxima arbitraria */
+    opacity: 1;
+}

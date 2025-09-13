@@ -1,0 +1,150 @@
+<section class="projects">
+    <div class="projects-content">
+        <h1 class="title">MIS PROYECTOS</h1>
+        <p class="description">
+            Aquí un resumen de algunos de los proyectos que he construido en mi camino como desarrollador. Puedes descubrir más
+            en mi perfil de <span class="hl"><a
+                    href="https://github.com/pablolop12/" target="_blank">GitHub</a></span>, donde tengo el resto de mis repositorios disponibles.
+        </p>
+        <div class="projects-container">
+            <div class="project">
+                <img src="assets/img/placeholder.webp" class="project-image" alt="Project Image">
+                <div class="details">
+                    <h1 class="project-title">Proyecto</h1>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit eros
+                        venenatis nascetur potenti in id, ligula cursus porta morbi nostra.</p>
+                    <div class="tech-container">
+                        <span class="tech">
+                            <i class="devicon-java-plain"></i>
+                            Java</span>
+                        <span class="tech">
+                            <i class="devicon-spring-original"></i>
+                            Spring</span>
+                        <span class="tech">
+
+                            <i class="devicon-hibernate-plain"></i>
+
+                            Hibernate</span>
+                        <span class="tech">
+                            <i class="devicon-angular-plain"></i>
+                            Angular</span>
+                        <span class="tech">
+                            <i class="devicon-sass-original"></i>
+                            Sass</span>
+                        <span class="tech">
+                            <i class="devicon-bootstrap-plain"></i>
+                            Bootstrap</span>
+                    </div>
+                    <a class="git-link"><i class="fa-brands fa-github me-2"></i>Visitar repositorio</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="assets/img/placeholder.webp" class="project-image" alt="Project Image">
+                <div class="details">
+                    <h1 class="project-title">Proyecto</h1>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit eros
+                        venenatis nascetur potenti in id, ligula cursus porta morbi nostra.</p>
+                    <div class="tech-container">
+                        <span class="tech">
+                            <i class="devicon-java-plain"></i>
+                            Java</span>
+                        <span class="tech">
+                            <i class="devicon-spring-original"></i>
+                            Spring</span>
+                        <span class="tech">
+
+                            <i class="devicon-hibernate-plain"></i>
+
+                            Hibernate</span>
+                        <span class="tech">
+                            <i class="devicon-angular-plain"></i>
+                            Angular</span>
+                        <span class="tech">
+                            <i class="devicon-sass-original"></i>
+                            Sass</span>
+                        <span class="tech">
+                            <i class="devicon-bootstrap-plain"></i>
+                            Bootstrap</span>
+                    </div>
+                    <a class="git-link"><i class="fa-brands fa-github me-2"></i>Visitar repositorio</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="assets/img/placeholder.webp" class="project-image" alt="Project Image">
+                <div class="details">
+                    <h1 class="project-title">Proyecto</h1>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit eros
+                        venenatis nascetur potenti in id, ligula cursus porta morbi nostra.</p>
+                    <div class="tech-container">
+                        <span class="tech">
+                            <i class="devicon-java-plain"></i>
+                            Java</span>
+                        <span class="tech">
+                            <i class="devicon-spring-original"></i>
+                            Spring</span>
+                        <span class="tech">
+
+                            <i class="devicon-hibernate-plain"></i>
+
+                            Hibernate</span>
+                        <span class="tech">
+                            <i class="devicon-angular-plain"></i>
+                            Angular</span>
+                        <span class="tech">
+                            <i class="devicon-sass-original"></i>
+                            Sass</span>
+                        <span class="tech">
+                            <i class="devicon-bootstrap-plain"></i>
+                            Bootstrap</span>
+                    </div>
+                    <a class="git-link"><i class="fa-brands fa-github me-2"></i>Visitar repositorio</a>
+                </div>
+            </div>
+
+            <div class="extra-projects d-flex align-items-center justify-content-center" [ngClass]="{'expanded': showMore}">
+                <div class="project">
+                    <img src="assets/img/placeholder.webp" class="project-image" alt="Project Image">
+                    <div class="details">
+                        <h1 class="project-title">Proyecto</h1>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit eros
+                            venenatis nascetur potenti in id, ligula cursus porta morbi nostra.</p>
+                        <div class="tech-container">
+                            <span class="tech">
+                                <i class="devicon-java-plain"></i>
+                                Java</span>
+                            <span class="tech">
+                                <i class="devicon-spring-original"></i>
+                                Spring</span>
+                            <span class="tech">
+
+                                <i class="devicon-hibernate-plain"></i>
+
+                                Hibernate</span>
+                            <span class="tech">
+                                <i class="devicon-angular-plain"></i>
+                                Angular</span>
+                            <span class="tech">
+                                <i class="devicon-sass-original"></i>
+                                Sass</span>
+                            <span class="tech">
+                                <i class="devicon-bootstrap-plain"></i>
+                                Bootstrap</span>
+                        </div>
+                        <a class="git-link"><i class="fa-brands fa-github me-2"></i>Visitar repositorio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="text-center">
+            <a class="textToggle" (click)="toggleShowMore()">
+                {{ showMore ? 'Mostrar menos proyectos' : 'Mostrar más proyectos' }}
+                <i class="fa ms-2" [ngClass]="showMore ? 'fa-chevron-up' : 'fa-chevron-down'"></i>
+            </a>
+        </div>
+
+    </div>
+</section>

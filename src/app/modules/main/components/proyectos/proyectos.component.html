@@ -3,8 +3,7 @@
         <h1 class="title">MIS PROYECTOS</h1>
         <p class="description">
             Aquí un resumen de algunos de los proyectos que he construido en mi camino como desarrollador. Puedes descubrir más
-            en mi perfil de <span class="hl"><a
-                    href="https://github.com/pablolop12/" target="_blank">GitHub</a></span>, donde tengo el resto de mis repositorios disponibles.
+            en mi perfil de <span class="hl"><a>GitHub</a></span>, donde tengo el resto de mis <span class="hl">repositorios disponibles</span>.
         </p>
         <div class="projects-container">
             <div class="project">
@@ -140,10 +139,10 @@
 
 
         <div class="text-center">
-            <a class="textToggle" (click)="toggleShowMore()">
+            <span class="textToggle" (click)="toggleShowMore()">
                 {{ showMore ? 'Mostrar menos proyectos' : 'Mostrar más proyectos' }}
                 <i class="fa ms-2" [ngClass]="showMore ? 'fa-chevron-up' : 'fa-chevron-down'"></i>
-            </a>
+            </span  >
         </div>
 
     </div>

@@ -29,6 +29,13 @@
    font-family: "Montserrat", sans-serif;
 }
 
+html, body {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 //Colores Selección cursor
 ::selection {
   color: rgb(255, 255, 255);

@@ -1,16 +1,19 @@
 <nav class="navbar-own">
     <ul>
-        <li>
-            <a href="">Proyectos</a>
+        <li class="nav-item" [ngClass]="{ 'active': currentSection === 'hero' }">
+          <a class="nav-link" (click)="scrollToSection('hero')">Inicio</a>
         </li>
-        <li>
-            <a>Trayectoria</a>
+       <li class="nav-item" [ngClass]="{ 'active': currentSection === 'proyectos' }">
+          <a class="nav-link" (click)="scrollToSection('proyectos')">Proyectos</a>
         </li>
-        <li>
-            <a>Tecnologías</a>
+        <li class="nav-item" [ngClass]="{ 'active': currentSection === 'experience' }">
+          <a class="nav-link" (click)="scrollToSection('experience')">Trayectoria</a>
         </li>
-        <li>
-            <a>Sobre mí</a>
+        <li class="nav-item" [ngClass]="{ 'active': currentSection === 'skills' }">
+          <a class="nav-link" (click)="scrollToSection('skills')">Skills</a>
+        </li>
+        <li class="nav-item" [ngClass]="{ 'active': currentSection === 'about' }">
+          <a class="nav-link" (click)="scrollToSection('about')">Perfil</a>
         </li>
     </ul>
 </nav>

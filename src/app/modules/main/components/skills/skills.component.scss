@@ -18,6 +18,7 @@
   display: flex;
   position: relative;
   gap: 20px;
+   align-items: center; // 
 
   @media (max-width: 767.98px) {
     // móvil
